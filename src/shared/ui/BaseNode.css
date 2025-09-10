@@ -1,0 +1,26 @@
+.base-node-container {
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 10px;
+  min-width: 120px;
+  background-color: #f0f4ff;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.base-node-container:hover {
+  background-color: #e3ebff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.base-node-container.selected {
+  border-color: #ff9800;
+  background-color: #fff3e0;
+  box-shadow: 0 0 0 3px rgba(255, 152, 0, 0.4);
+}
+
+.base-node-label {
+  font-weight: bold;
+  color: #000000;
+}

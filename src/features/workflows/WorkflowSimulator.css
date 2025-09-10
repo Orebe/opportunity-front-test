@@ -1,0 +1,98 @@
+.primary-button {
+  background-color: #3b82f6;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition:
+    background-color 0.2s ease-in-out,
+    transform 0.1s ease-in-out;
+}
+
+.primary-button:hover {
+  background-color: #2563eb;
+  transform: translateY(-1px);
+}
+
+.primary-button:active {
+  transform: translateY(0);
+}
+
+.secondary-button {
+  background-color: #e5e7eb;
+  color: #111827;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #d1d5db;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.secondary-button:hover {
+  background-color: #d1d5db;
+}
+
+.workflow-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  font-family: system-ui, sans-serif;
+}
+
+.sidebar {
+  width: 300px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-right: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow-y: auto;
+}
+
+.sidebar .card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sidebar h4 {
+  margin: 0 0 10px;
+  font-size: 1rem;
+  color: #374151;
+}
+
+.sidebar label {
+  font-size: 0.9rem;
+  color: #374151;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.sidebar select,
+.sidebar input {
+  width: 100%;
+  padding: 0.4rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  background: #fff;
+  font-size: 0.9rem;
+  color: #111827;
+}
+
+.sidebar select:focus,
+.sidebar input:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+}
+
+.flow-container {
+  flex-grow: 1;
+}

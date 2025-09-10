@@ -72,7 +72,6 @@ npm run dev
 - Les nodes s’exécutent en parallèle si possible et en séquence selon les transitions.
 
 ### 5. Consulter le journal d’exécution
-- Le journal affichera le **statut de chaque node** (Success / Failure).
-- Les logs sont mis à jour en **temps réel** pendant la simulation.
+- Les logs sont mis à jour en temps réel pendant la simulation.
 
 ```

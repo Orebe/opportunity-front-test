@@ -1,0 +1,73 @@
+.logs-container {
+  background: #1e1e2f;
+  color: #f8f9fa;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.logs-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.logs-title {
+  font-weight: bold;
+  color: #3b82f6;
+}
+
+.logs-clear-btn {
+  background: #ff4d4f;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.logs-clear-btn:hover {
+  background: #d9363e;
+}
+
+.logs-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-grow: 1;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #444 #1e1e2f;
+}
+
+.logs-item {
+  display: flex;
+  gap: 8px;
+  padding: 6px 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  transition: background 0.2s ease;
+}
+
+.logs-item:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.logs-time {
+  color: #999;
+  min-width: 70px;
+}
+
+.logs-message {
+  flex: 1;
+}
+
+.logs-empty {
+  text-align: center;
+  color: #888;
+  padding: 12px 0;
+}
